@@ -2,6 +2,8 @@
 
 This repository contains several scripts designed to fetch, process, and store weather data from an API, as well as interact with AWS services such as S3, DynamoDB, and Lambda. These scripts are structured to automate the data pipeline and facilitate easy access to historical and daily weather data.
 
+Link to Project: https://drive.google.com/drive/folders/19sb7C9LF5YgTJ88_Z8jMD5fbvQhbLLjG
+
 ### Note:
 - **Primary Data Source**: All data is primarily stored in **DynamoDB** for efficient and scalable retrieval.
 - **Backup Data Source**: The scripts `api_daily_S3.py` and `api_historical_S3.ipynb` are designed to fetch and store data in **S3** as a backup.
